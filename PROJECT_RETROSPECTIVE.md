@@ -93,7 +93,7 @@
 
 ### 4.2 憑證遮蔽
 
-主要 Controller 原先將 LINE Channel Access Token、Channel Secret 與 Azure QnA Maker Key 直接寫在原始碼中。本次整理已將這三項憑證字串替換為 `APIKey` 佔位符，以避免在目前版本繼續公開原始憑證內容。
+主要 Controller 原先將 LINE Channel Access Token、Channel Secret 與 Azure QnA Maker Key 直接寫在原始碼中，本次已將這三項憑證替換為 `APIKey`，並將管理者 LINE user ID 替換為 `USER_ID`，避免目前版本繼續公開憑證及帳號識別值。
 
 `APIKey` 只是遮蔽標記，並非有效金鑰。其他測試 Controller 原本已使用提示文字作為憑證佔位符。
 
