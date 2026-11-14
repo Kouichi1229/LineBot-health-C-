@@ -1,5 +1,7 @@
 # LINE 健康資訊問答聊天機器人
 
+![專題畫面](https://user-images.githubusercontent.com/24285484/159651393-6b20b55b-911a-4be2-b765-8bf2e63b4a5b.png)
+
 這是以 C# 與 ASP.NET Web API 開發的 LINE 聊天機器人，大學專題作品。透過 LINE Messaging API 接收使用者訊息，提供互動式功能選單，並整合 Azure QnA Maker 回答健康資訊相關問題。
 
 專案也包含獨立的 LUIS 意圖辨識測試 Controller，呈現將自然語言理解服務接入聊天機器人的實作探索。
