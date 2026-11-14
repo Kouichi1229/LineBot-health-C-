@@ -11,7 +11,7 @@ namespace ShuMIS25th_V3.Controllers
     public class Main_V1Controller : isRock.LineBot.LineWebHookControllerBase
     {
         const string channelAccessToken = "APIKey";
-        const string AdminUserId = "Ud9cc0a2f1d572a98e58bf03adebefc77";
+        const string AdminUserId = "USER_ID";
         //--short token--//
         const string channelShortID = "1594416612";
         const string channelShortSecret = "APIKey";
