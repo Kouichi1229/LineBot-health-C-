@@ -10,11 +10,11 @@ namespace ShuMIS25th_V3.Controllers
 {
     public class Main_V1Controller : isRock.LineBot.LineWebHookControllerBase
     {
-        const string channelAccessToken = "bZzW/iWV9Q0Ems+uIyguUQEM58LV0wbUkawztCiUkI1rU2MYeNCyg0S8Fyv+B4S73r7epM9yuJWMNNzH6hWSq7T6Pdv2iZZnXRAcoy35AobVT8LsCqmBVaGm1PN1kxP6FTLvK6yxBLjQmHPWPiXdeAdB04t89/1O/w1cDnyilFU=";
+        const string channelAccessToken = "APIKey";
         const string AdminUserId = "Ud9cc0a2f1d572a98e58bf03adebefc77";
         //--short token--//
         const string channelShortID = "1594416612";
-        const string channelShortSecret = "2a2cda417e69f881db7b27af675fcb07";
+        const string channelShortSecret = "APIKey";
 
         /*
          QAmaker EndPoint  =  Host + post
@@ -22,7 +22,7 @@ namespace ShuMIS25th_V3.Controllers
            建立好的WEB 要跟 QAWEB 同個資源
        */
         const string DatabasesQAEpoint = "https://testbot33.azurewebsites.net/qnamaker/knowledgebases/695ce9f6-c08e-46fb-b861-73b75738d051/generateAnswer";
-        const string DatabasesQAKey = "43492666-bcc0-4d53-a32a-23331f16d325";
+        const string DatabasesQAKey = "APIKey";
 
 
         const string UnknowAnswer = "我的資料庫裡沒有這方面的資料,你可以問我這些東西:\n";
